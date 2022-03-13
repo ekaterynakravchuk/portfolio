@@ -10,29 +10,28 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <section class="banner section">
-        <header class="banner__header">
-            <div class="container">
-                <div class="header__inner">
-                    <a href="index.html" class="header__title">Екатерина Кравчук</a>
-                    <nav class="nav">
-                        <ul class="nav__list">
-                            <li class="nav__item">
-                                <a href="#about" class="nav__link">Обо мне</a></li>
-                            <li class="nav__item">
-                                <a href="#skills" class="nav__link">Навыки</a></li>
-                            <li class="nav__item">
-                                <a href="#portfolio" class="nav__link">Портфолио</a></li>
-                            <li class="nav__item">
-                                <a href="#contacts" class="nav__link">Контакты</a></li>
-                            <li class="nav__item switch">
-                                <a href="#"></a></li>
-                        </ul>
-                    </nav>
-                </div>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="header__title">Екатерина Кравчук</a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Обо мне</a></li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">Навыки</a></li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">Портфолио</a></li>
+                        <li class="nav__item">
+                            <a href="#contacts" class="nav__link">Контакты</a></li>
+                        <li class="nav__item switch">
+                            <a href="#"></a></li>
+                    </ul>
+                </nav>
             </div>
-        </header>
-        <div class="banner__content">
+        </div>
+    </header>
+    <section class="banner">
             <div class="container">
                 <div class="banner__inner">
                     <div class="banner__img">
@@ -68,7 +67,6 @@
                     </div>
                 </div>
             </div>
-        </div>
     </section>
     <!-- about -->
     <section class="about section" id="about">
@@ -76,10 +74,12 @@
             <div class="about__inner">
                 <h2 class="section__title">Обо мне</h2>
                 <p class="about__text">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non animi explicabo, dolorem voluptates sapiente illum asperiores accusantium cupiditate eveniet inventore, dolorum, quae error ea? Iste, dicta magnam ut veritatis, hic id rerum rem necessitatibus dolor omnis saepe. Odio tempora, atque et totam asperiores ullam exercitationem modi vitae repellat ipsa unde dolorum tenetur blanditiis neque non ipsum dignissimos voluptatem id tempore. Delectus, quaerat nobis animi incidunt quibusdam minus commodi soluta error totam doloribus libero unde tenetur, modi, cumque quisquam aliquid aliquam. Nisi, omnis! Reprehenderit iusto nostrum doloribus laboriosam nam sapiente eaque, necessitatibus fugiat saepe asperiores quos architecto at vero? Provident, cupiditate?
+                    Мне 31 год, я изучаю html-верстку и JavaScript, чтобы стать Front-End разработчиком.
                 </p>
                 <p class="about__text">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non animi explicabo, dolorem voluptates sapiente illum asperiores accusantium cupiditate eveniet inventore, dolorum, quae error ea? Iste, dicta magnam ut veritatis, hic id rerum rem necessitatibus dolor omnis saepe. Odio tempora, atque et totam asperiores ullam exercitationem modi vitae repellat ipsa unde dolorum tenetur blanditiis neque non ipsum dignissimos voluptatem id tempore. Delectus, quaerat nobis animi incidunt quibusdam minus commodi soluta error totam doloribus libero unde tenetur, modi, cumque quisquam aliquid aliquam. Nisi, omnis! Reprehenderit iusto nostrum doloribus laboriosam nam sapiente eaque, necessitatibus fugiat saepe asperiores quos architecto at vero? Provident, cupiditate?
+                    С каждым новым проектом я стараюсь усовершенствовать и оптимизировать свой код, использую различные плагины, препроцессоры и сборщики проектов.
+                </p>
+                <p class="about__text">
                 </p>
             </div>
         </div>
@@ -89,12 +89,13 @@
             <div class="skills__inner">
                 <h2 class="section__title">Навыки</h2>
                 <ul class="skills__list">
-                    <li class="skills__item">HTML</li>
-                    <li class="skills__item">CSS</li>
+                    <li class="skills__item">HTML5, CSS3</li>
                     <li class="skills__item">препроцессоры SCSS, SASS</li>
+                    <li class="skills__item">Flexbox</li>
                     <li class="skills__item">основы JavaScript</li>
                     <li class="skills__item">GitHub</li>
-                    <li class="skills__item">Figma</li>
+                    <li class="skills__item">PSD, Figma</li>
+                    <li class="skills__item">семантика</li>
                     <li class="skills__item">адаптивная, мобильная верстка</li>
                 </ul>
 
@@ -130,7 +131,7 @@
                 <h2 class="section__title">Контакты</h2>
                 <div class="contacts__box">
                     <div class="contacts__box-item">
-                      <a class="contacts__box-item__mail" href="mailto:korniienkoviktoriiaa@gmail.com">ekateryna.kravchuk@gmail.com</a>
+                      <a class="contacts__box-item__mail" href="mailto:ekateryna.kravchuk@gmail.com">ekateryna.kravchuk@gmail.com</a>
                       <a class="contacts__box-item__phone" href="tel:+380977682879">(+38) 097-768-28-79</a>
                     </div>
                     <ul class="social">
