@@ -205,6 +205,8 @@ body {
     background-size: cover;
     position: relative;
     padding-top: 33%;
+    border: 2px solid #ccc;
+    margin-bottom: 5px;
 }
 .portfolio__item:before {
     content: '';
@@ -351,8 +353,9 @@ body {
         margin-bottom: 15px;
     }
     .portfolio__item {
-        width: 50%;
-        padding-top: 50%;
+        width: 48%;
+        padding-top: 48%;
+        margin: 5px;
     }
     .contacts__box {
         display: flex;
@@ -402,6 +405,15 @@ body {
     .contacts__box-item a {
         font-size: 14px;
         margin-bottom: 15px;
+    }
+}
+@media (max-width: 537px) {
+    .portfolio__items {
+        justify-content: center;
+    }
+    .portfolio__item {
+        width: 88%;
+        padding-top: 88%;
     }
 }
 @media (max-width: 320px) {
