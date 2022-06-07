@@ -220,18 +220,20 @@ body {
     visibility: hidden;
 }
 .portfolio__item:hover:before,
-.portfolio__item:hover img {
+.portfolio__item:hover ul {
     transition: transform 0.3s ease-in-out;
     opacity: 1;
     visibility: visible;
 }
-.portfolio__item img {
+.portfolio__item ul {
     opacity: 0;
     visibility: hidden;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #fff;
 }
 /* contacts */
 .contacts__box {
@@ -304,6 +306,9 @@ body {
     .section__title {
         font-size: 28px;
         margin-bottom: 25px;
+    }
+    .portfolio__item ul {
+        font-size: 22px;
     }
     .contacts__box {
         margin-bottom: 30px;
@@ -399,6 +404,9 @@ body {
     .about__inner {
         text-align: justify;
     }
+    .portfolio__item ul {
+        font-size: 22px;
+    }
     .contacts__box {
         align-items: center;
     }
@@ -414,6 +422,11 @@ body {
     .portfolio__item {
         width: 88%;
         padding-top: 88%;
+    }
+}
+@media (max-width: 400px) {
+    .portfolio__item ul {
+        font-size: 18px;
     }
 }
 @media (max-width: 320px) {
